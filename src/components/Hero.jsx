@@ -8,7 +8,7 @@ const Hero = () => {
       style={{ height: "calc(100vh - 114px)" }}
     >
       <div className="flex flex-col gap-8">
-        <h1 className="text-4xl max-w-[315.5px] flex flex-col gap-4">
+        <h1 className="text-4xl max-w-[315.5px] flex flex-col gap-4 text-neptune-primary-blue">
           <span className="font-bold">Neptune</span>
           <span className="font-bold">maritime industry</span>
           <span>at your fingertips</span>

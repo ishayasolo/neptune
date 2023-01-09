@@ -3,7 +3,7 @@ import Header from "./Header"
 
 const Features = () => {
   return (
-    <div className="flex flex-col justify-center items-center gap-8 py-20">
+    <div className="flex flex-col justify-center items-center gap-8 py-20" id="how-it-works">
       <Header firstPart="Our" secondPart="Features" />
       <div className="flex gap-4">
         {FEATURES.map(({ image, content }) => (

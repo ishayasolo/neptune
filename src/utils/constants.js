@@ -54,3 +54,14 @@ export const HOW_TO_START = [
     description: "Join the maritime community",
   },
 ]
+
+export const FOOTER_LINKS = [
+  {
+    label: "Terms",
+    path: "#terms",
+  },
+  {
+    label: "Privacy",
+    path: "#privacy",
+  },
+]

@@ -24,9 +24,7 @@ const NavBar = () => {
         <Link to="/login">
           <p className="font-bold text-neptune-primary-blue p-3">Log in</p>
         </Link>
-        <Link to="/get-started">
-          <Button value="Get started" />
-        </Link>
+        <Button value="Get started" />
       </div>
     </div>
   )

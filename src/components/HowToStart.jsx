@@ -10,10 +10,10 @@ const HowToStart = () => {
       <div className="flex flex-col gap-10 max-w-[410px]">
         <div className="flex flex-col gap-4">
           {HOW_TO_START.map((step, index) => (
-            <Step key={index} count={index} {...step} />
+            <Step key={index} count={index + 1} {...step} />
           ))}
         </div>
-				<Button value="Get started "/>
+        <Button value="Get started" />
       </div>
     </div>
   )

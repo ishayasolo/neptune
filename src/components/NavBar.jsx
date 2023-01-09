@@ -1,10 +1,11 @@
 import logo from "assets/svg/logo.svg"
 import { Link } from "react-router-dom"
 import { NAV_LINKS } from "utils/constants"
+import Button from "./Button"
 
 const NavBar = () => {
   return (
-    <div className="flex justify-between w-full items-center">
+    <div className="flex justify-between w-full items-center max-w-7xl self-center">
       <div className="flex justify-center items-center w-14">
         <img src={logo} alt="" className="w-full" />
       </div>
@@ -24,9 +25,7 @@ const NavBar = () => {
           <p className="font-bold text-neptune-primary-blue p-3">Log in</p>
         </Link>
         <Link to="/get-started">
-          <button className="font-bold text-white px-5 py-3 rounded-lg bg-neptune-primary-blue">
-            Get started
-          </button>
+          <Button value="Get started" />
         </Link>
       </div>
     </div>

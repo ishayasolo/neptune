@@ -1,9 +1,11 @@
+import Hero from "components/Hero"
 import NavBar from "components/NavBar"
 
 const App = () => {
   return (
-    <div className="max-w-7xl py-8 px-4 mx-auto">
+    <div className="pt-8 flex flex-col">
       <NavBar />
+      <Hero />
     </div>
   )
 }

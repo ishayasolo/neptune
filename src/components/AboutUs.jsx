@@ -1,4 +1,5 @@
 import aboutPhoto from "assets/svg/about-photo.svg"
+import Header from "./Header"
 const AboutUs = () => {
   return (
     <div className="bg-neptune-secondary-gray flex justify-center items-center py-24">
@@ -7,9 +8,7 @@ const AboutUs = () => {
           <img src={aboutPhoto} className="w-full" alt="" />
         </div>
         <div className="flex flex-col gap-6 max-w-[606px]">
-          <h2 className="text-2xl mb-2">
-            About <span className="font-bold">Neptune</span>
-          </h2>
+          <Header firstPart="About" secondPart="Neptune" />
           <p className="text-neptune-primary-gray leading-8">
             Neptune is an integrated maritime system, which consists of a
             tracking and surveillance system where vessels owner and fleet

@@ -16,3 +16,22 @@ export const NAV_LINKS = [
     path: "#contact",
   },
 ]
+
+export const FEATURES = [
+  {
+    image: "boat",
+    content: "Neptune is an integrated maritime system"
+  },
+  {
+    image: "customer-support",
+    content: "Neptune is an integrated maritime system"
+  },
+  {
+    image: "users",
+    content: "Neptune is an integrated maritime system"
+  },
+  {
+    image: "file",
+    content: "Neptune is an integrated maritime system"
+  },
+]

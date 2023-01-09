@@ -1,6 +1,7 @@
 import AboutUs from "components/AboutUs"
 import Features from "components/Features"
 import Hero from "components/Hero"
+import HowToStart from "components/HowToStart"
 import NavBar from "components/NavBar"
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <Hero />
       <AboutUs />
       <Features />
+      <HowToStart />
     </div>
   )
 }

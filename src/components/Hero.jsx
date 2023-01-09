@@ -18,7 +18,10 @@ const Hero = () => {
           for rental
         </p>
         <div className="pt-8 flex gap-4">
-          {["Get started", "See our plans"].map(cta => (
+          {[
+            "Get started",
+            // "See our plans"
+          ].map(cta => (
             <Button key={cta} value={cta} />
           ))}
         </div>

@@ -12,6 +12,10 @@ export const NAV_LINKS = [
     path: "#how-it-works",
   },
   {
+    label: "Partners",
+    path: "#partners",
+  },
+  {
     label: "Contact",
     path: "#contact",
   },

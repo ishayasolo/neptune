@@ -45,10 +45,10 @@ export const HOW_TO_START = [
     label: "Configure your account",
     description: "Set up information and settings",
   },
-  {
-    label: "Select plan",
-    description: "Choose one of our plans",
-  },
+  // {
+  //   label: "Select plan",
+  //   description: "Choose one of our plans",
+  // },
   {
     label: "Start using Neptune platform",
     description: "Join the maritime community",

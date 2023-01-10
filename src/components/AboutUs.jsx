@@ -2,9 +2,9 @@ import aboutPhoto from "assets/svg/about-photo.svg"
 import Header from "./Header"
 const AboutUs = () => {
   return (
-    <div className="bg-neptune-secondary-gray flex justify-center items-center py-24" id="about-us">
-      <div className="flex items-center gap-20 max-w-7xl self-center w-full">
-        <div className="flex -ml-6">
+    <div className="bg-neptune-secondary-gray flex justify-center items-center py-24 px-4" id="about-us">
+      <div className="flex flex-col-reverse lg:flex-row lg:items-center gap-20 max-w-7xl self-center w-full">
+        <div className="flex -ml-5 max-w-xl">
           <img src={aboutPhoto} className="w-full" alt="" />
         </div>
         <div className="flex flex-col gap-6 max-w-[606px]">

@@ -5,7 +5,7 @@ const Features = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-8 py-20" id="how-it-works">
       <Header firstPart="Our" secondPart="Features" />
-      <div className="flex gap-4">
+      <div className="flex gap-4 flex-wrap items-center justify-center">
         {FEATURES.map(({ image, content }) => (
           <div
             key={image}

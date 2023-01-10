@@ -7,7 +7,7 @@ import NavBar from "components/NavBar"
 
 const App = () => {
   return (
-    <div className="pt-8 flex flex-col">
+    <div className="flex flex-col">
       <NavBar />
       <Hero />
       <AboutUs />

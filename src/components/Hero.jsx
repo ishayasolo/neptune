@@ -4,8 +4,8 @@ import Button from "./Button"
 const Hero = () => {
   return (
     <div
-      className="flex items-center justify-between gap-28 max-w-7xl self-center"
-      style={{ height: "calc(100vh - 114px)" }}
+      className="flex flex-col lg:items-center justify-between gap-10 lg:gap-28 max-w-7xl lg:self-center lg:flex-row px-4 mt-28"
+      style={{ height: "fit-content", minHeight: "calc(100vh - 114px)" }}
     >
       <div className="flex flex-col gap-8">
         <h1 className="text-4xl max-w-[315.5px] flex flex-col gap-4 text-neptune-primary-blue">
@@ -26,7 +26,7 @@ const Hero = () => {
           ))}
         </div>
       </div>
-      <div className="flex justify-center items-center -mr-5">
+      <div className="flex justify-center items-center lg:-mr-5 max-w-2xl">
         <img src={heroImage} alt="" className="w-full" />
       </div>
     </div>

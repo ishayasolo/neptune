@@ -11,6 +11,7 @@ body {
     "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white;
 }
 
 code {
@@ -20,4 +21,10 @@ code {
 
 :root {
   color-scheme: only light;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: white;
+  }
 }

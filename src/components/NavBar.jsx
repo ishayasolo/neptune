@@ -29,8 +29,8 @@ const NavBar = () => {
           </div>
         </div>
       )}
-      <div className="flex fixed top-0 bg-white mx-auto justify-between w-full items-center max-w-7xl self-center px-4">
-        <div className="flex justify-center items-center w-14">
+      <div className="flex fixed top-0 bg-white mx-auto justify-between w-full items-center max-w-7xl self-center px-4 bg-transparent">
+        <div className="flex justify-center items-center w-14 bg-transparent">
           <img src={logo} alt="" className="w-full" />
         </div>
         <div className="hidden lg:flex items-center gap-10 ">
